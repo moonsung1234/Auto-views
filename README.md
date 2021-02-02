@@ -33,6 +33,26 @@ av = AutoViews()
 av.playVideo("https://www.youtube.com/watch?v=jsFhMMxximg", skip_delay=0.1, delay=4)
 ```
 
+<br>
+<br/>
+
+- for 문을 이용해 여러번 실행할 수 있습니다.
+- 반복되는 만큼 영상의 조회수를 늘려줍니다. (광고는 자동으로 스킵해주며, 창은 정리할필요 없이 저절로 닫힙니다.)
+
+<br/>
+
+```python
+from autoviews import AutoViews
+
+loop_count = 5
+av = AutoViews()
+
+for _ in range(loop_count) :
+  av.playVideo("https://www.youtube.com/watch?v=jsFhMMxximg", skip_delay=0.1, delay=4)
+```
+
 <br/>
 
 <h4>위의 예제를 실행시켜보면 작동하는 방식과 인자값들을 어떻게 넣어야하는지 이해가 갈 것입니다. Just do it.</h4>
+
+<br/>
