@@ -26,7 +26,7 @@ av.playVideo("https://www.youtube.com/watch?v=jsFhMMxximg")
 ```python
 from autoviews import AutoViews
 
-#skip_delay : youtube video 5 seconds skip delay. (0.1 -> 0.1 second)
+#skip_delay : youtube video 5 seconds skip delay. (0.1 -> 0.1 second or 100 ms)
 #delay : wait delay for loading. (4 -> 4 seconds)
 
 av = AutoViews()
